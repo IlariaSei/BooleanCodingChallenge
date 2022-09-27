@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta name="description" content="HTML page test with external CSS">
+    <meta name="author" content="Ilaria Sei">
+    <meta charset="utf-8">
+    <title>Esercitazione</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body class="bg" >
+    <!-- darker page area (just for elegance)-->
+    <div class="darker_area">
+      <br><br>
+
+      <!-- logo + logo text-->
+      <header >
+        <img  src="logo.png" alt="logo"  class="logo_image">
+        <br>
+        <span class="logo_text" >Taking Booleaners from A to B</span>
+      </header>
+
+      <br>
+
+      <!-- navigation bar for user actions -->
+      <div id="nav_bar1" class="nav_bar">
+        <br>
+        <nav >
+        <button>Prenota</button>
+        <button>Termina prenotazione</button>
+        <button>Accendi Luci</button>
+        </nav>
+        <br>
+      </div>
+
+      <br>
+
+      <main>
+        <!-- Users list and scooter information -->
+        <section class="user_info_para">
+          <!-- User1 -->
+          <!-- User name -->
+          <div class="user_info_name">&#9632; Monopattino <span>Gino22</span> </div>
+          <!-- Position-->
+          <div class="user_info_scooter">&#8614; Via Guadalametri - a <span>220</span> metri da te</div>
+          <!--Charging bar, (70%) -->
+          <div class="user_info_scooter">Stato carica: </div>
+          <div id="charge_bar" class="charge_bar" style="background-color: #ffc266;"></div>
+        </section>
+        <br>
+        <section class="user_info_para">
+          <!-- User2 -->
+          <!-- User name -->
+          <div class="user_info_name">&#9632; Monopattino <span>Mike24</span></div>
+          <!-- Position-->
+          <div class="user_info_scooter">&#8614; Via Ricciardoni - a <span>420</span> metri da te</div>
+          <!--Charging bar, 100% -->
+          <div class="user_info_scooter">Stato carica: </div>
+          <div id="charge_bar" class="charge_bar" style="background-color: #00cc00;"></div>
+        </section>
+        <br>
+        <section class="user_info_para">
+          <!-- User2 -->
+          <!-- User name -->
+          <div class="user_info_name">&#9632; Monopattino <span>Fede154</span></div>
+          <!-- Position-->
+          <div class="user_info_scooter">&#8614; Via Mentarini - a <span>490</span> metri da te</div>
+          <!--Charging bar, 35% -->
+          <div class="user_info_scooter">Stato carica: </div>
+          <div id="charge_bar" class="charge_bar" style=" background-color: #cc3300;"></div>
+        </section>
+      </main>
+      <br><br>
+    </div>
+
+  </body>
+</html>
